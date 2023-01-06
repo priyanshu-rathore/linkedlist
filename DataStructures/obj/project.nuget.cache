@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rdaQ9kHDlQSLIiUcIIOYnnbqvyKe2A+uGNTwGnYKVwP9NyYcl+gRBBZQKTAtzeHLPhpjb3JG6q8hokJImbDK2Q==",
+  "success": true,
+  "projectFilePath": "/home/priyanshu/dotnet/DataStructures/DataStructures/DataStructures.csproj",
+  "expectedPackageFiles": [
+    "/home/priyanshu/.nuget/packages/nlog/5.1.1/nlog.5.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
