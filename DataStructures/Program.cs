@@ -4,9 +4,9 @@ namespace DataStructures{
     class Program{
         public static void Main(){
             linkedList list = new linkedList();
-            list.AddFirst(70);
-            list.AddFirst(30);
-            list.AddFirst(56);
+            list.AddLast(56);
+            list.AddLast(30);
+            list.AddLast(70);
             list.Display();
         }
     }

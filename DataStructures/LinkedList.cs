@@ -31,7 +31,7 @@ namespace DataStructures
             System.Console.WriteLine(head.data+" is added");
         }
 
-        public void AddLast(int data)
+        public void AddLast(int data)//UC2
         {
             Node node = new Node(data);
             Node temp = head;
