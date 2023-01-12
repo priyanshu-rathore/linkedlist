@@ -10,7 +10,8 @@ namespace DataStructures{
             //list.Pop();
             //list.DeleteLastNode();
             list.InsertAfter(30,40);
-            list.DeleteNode(40);
+            //list.DeleteNode(40);
+            list.BubbleSort(); 
             list.Display();
         }
     }

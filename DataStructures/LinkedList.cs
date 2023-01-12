@@ -21,6 +21,31 @@ namespace DataStructures
 
         private int count;
 
+        public void BubbleSort()//UC10
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("The list is empty.");
+            }
+            var current = head;
+            bool swapped = true;
+            while (swapped)
+            {
+                swapped = false;
+                while (current.next != null)
+                {
+                    if (current.data.CompareTo(current.next.data) > 0)
+                    {
+                        var temp = current.data;
+                        current.data = current.next.data;
+                        current.next.data = temp;
+                        swapped = true;
+                    }
+                    current = current.next;
+                }
+            }
+        }
+
         public void DeleteNode(int value)//UC9
         {
             Node current = head;
