@@ -9,7 +9,7 @@ namespace DataStructures{
             list.Insert(30,1);
             //list.Pop();
             //list.DeleteLastNode();
-            list.FindNode(30);
+            list.InsertAfter(30,40);           
             list.Display();
         }
     }

@@ -21,6 +21,20 @@ namespace DataStructures
 
         private int count;
 
+        public void InsertAfter(int targetValue, int newValue)//UC8
+        {
+            Node targetNode = FindNode(targetValue);
+            if (targetNode == null)
+            {
+                throw new InvalidOperationException("targetNode not found");
+            }
+            Node newNode = new Node(newValue);
+
+            newNode.next = targetNode.next;
+            targetNode.next = newNode;
+            head.next = targetNode;
+        }
+
         public Node FindNode(object value)//UC8
         {
             if (head == null)
@@ -34,7 +48,7 @@ namespace DataStructures
                 {
                     return current;
                 }
-                Console.WriteLine($"Found {current}");
+                Console.WriteLine($"Found {current.data}");
 
                 current = current.next;
             }
