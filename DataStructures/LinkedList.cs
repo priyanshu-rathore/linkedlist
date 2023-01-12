@@ -21,6 +21,19 @@ namespace DataStructures
 
         private int count;
 
+        public object Pop()//UC5
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("The list is empty.");
+            }
+
+            object value = head.data;
+            head = head.next;
+            count--;
+            return value;
+        }
+
         public void AddFirst(int value)// UC1 
         {
             Node newNode = new Node(value);

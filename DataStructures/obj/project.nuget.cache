@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rdaQ9kHDlQSLIiUcIIOYnnbqvyKe2A+uGNTwGnYKVwP9NyYcl+gRBBZQKTAtzeHLPhpjb3JG6q8hokJImbDK2Q==",
+  "dgSpecHash": "yIkpyn85RkpY5xChZ2d9vYZj5KfZNBQ6yj2Esfa69/Nrp90wnf1gfMhKYBX81IOLKyK7s/iRleHTN6Idr2cDDg==",
   "success": true,
-  "projectFilePath": "/home/priyanshu/dotnet/DataStructures/DataStructures/DataStructures.csproj",
+  "projectFilePath": "C:\\Users\\scorp\\Desktop\\linkedlist\\DataStructures\\DataStructures.csproj",
   "expectedPackageFiles": [
-    "/home/priyanshu/.nuget/packages/nlog/5.1.1/nlog.5.1.1.nupkg.sha512"
+    "C:\\Users\\scorp\\.nuget\\packages\\nlog\\5.1.1\\nlog.5.1.1.nupkg.sha512"
   ],
   "logs": []
 }

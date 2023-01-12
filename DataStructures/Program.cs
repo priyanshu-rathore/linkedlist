@@ -7,6 +7,7 @@ namespace DataStructures{
             list.AddLast(56);
             list.AddLast(70);
             list.Insert(30,1);
+            list.Pop();
             list.Display();
         }
     }
