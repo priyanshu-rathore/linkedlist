@@ -21,6 +21,27 @@ namespace DataStructures
 
         private int count;
 
+        public void DeleteLastNode()//UC7
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("The list is empty.");
+            }
+            else if (head.next == null)
+            {
+                head = null;
+            }
+            else
+            {
+                var current = head;
+                while (current.next.next != null)
+                {
+                    current = current.next;
+                }
+                current.next = null;
+            }
+        }
+
         public object Pop()//UC5
         {
             if (head == null)
