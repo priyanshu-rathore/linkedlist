@@ -21,6 +21,30 @@ namespace DataStructures
 
         private int count;
 
+        public void DeleteNode(int value)//UC9
+        {
+            Node current = head;
+            if (head == null)
+            {
+                throw new InvalidOperationException("The list is empty.");
+            }
+            if (head.data.Equals(value))
+            {
+                head = head.next;
+                return;
+            }
+            while (current.next != null)
+            {
+                if (current.next.data.Equals(value))
+                {
+                    current.next = current.next.next;
+                    return;
+                }
+                current = current.next;
+            }
+            throw new InvalidOperationException("node with given value not found.");
+        }
+
         public void InsertAfter(int targetValue, int newValue)//UC8
         {
             Node targetNode = FindNode(targetValue);
