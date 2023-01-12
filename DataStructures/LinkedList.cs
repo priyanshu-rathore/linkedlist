@@ -21,6 +21,26 @@ namespace DataStructures
 
         private int count;
 
+        public Node FindNode(object value)//UC8
+        {
+            if (head == null)
+            {
+                return null;
+            }
+            var current = head;
+            while (current != null)
+            {
+                if (current.data.Equals(value))
+                {
+                    return current;
+                }
+                Console.WriteLine($"Found {current}");
+
+                current = current.next;
+            }
+            return null;
+        }
+
         public void DeleteLastNode()//UC7
         {
             if (head == null)

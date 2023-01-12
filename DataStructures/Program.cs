@@ -8,7 +8,8 @@ namespace DataStructures{
             list.AddLast(70);
             list.Insert(30,1);
             //list.Pop();
-            list.DeleteLastNode();
+            //list.DeleteLastNode();
+            list.FindNode(30);
             list.Display();
         }
     }
